@@ -44,9 +44,15 @@
                         <li class="nav-item">
                             <a href="{{ route('invoice.create') }}" class="nav-link">Buat Invoice</a>
                         </li>
-
+                        
+                        <!-- TAMBAHKAN CODE INI -->
                         <li class="nav-item">
-                            <a href="{{ url('/customer') }}" class="nav-link">Manajemen Customer</a>
+                            <a href="{{ route('invoice.index') }}" class="nav-link">List Invoice</a>
+                        </li>
+                        <!-- TAMBAHKAN CODE INI -->
+                        
+                        <li class="nav-item">
+                            <a href="{{ url('/customer') }}" class="nav-link">Manajemen Pelanggan</a>
                         </li>
 
                         <li class="nav-item">
